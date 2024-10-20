@@ -1,0 +1,1167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(207, 203, 203);
+}
+
+.nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    padding: 2px;
+    background-color: rgb(0, 0, 0);
+}
+img{
+    width: 100px;
+    height: 42px;
+    margin: 10px;
+    padding: 2px;
+    align-items: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.logo:hover{
+    border: 2px solid white;
+}
+
+.map{
+    margin-left: 18px;
+}
+
+.polar{
+    width: 20px;
+    height: 25px;
+    background-image: url(gift.png);
+    background-size: cover;
+    position: absolute;
+    left: 125px;
+    position: absolute;
+    top: 18px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+h6{
+    height: 16px;
+    padding: 0px;
+    margin-left: 25px;
+    margin-top: 8px;
+    color: white;
+    cursor: pointer;
+}
+h5{
+    margin: 2px;
+    margin-left: 2px;
+    padding: 0px;
+    color: white;
+    display: inline;
+    cursor: pointer;
+}
+.loca{
+    padding: 0px;
+    margin: 1px;
+    cursor: pointer;
+}
+.loca:hover{
+    border: 2px solid white;
+}
+
+select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input{
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 35px;
+    size: 35px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+   background-color:rgb(255, 196, 0);
+   cursor: pointer;
+}
+button:hover{
+    background-color: rgb(255, 153, 0);
+}
+
+input:hover{
+    border: 2px solid rgb(255, 145, 0);
+}
+
+.bg{
+    width: 38px;
+    height: 50px;
+    position: absolute;
+    top: 6px;
+    position: absolute;
+    left: 913px;
+    background-image: url(ioocn.png);
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+}
+
+.cart{
+    width: 65px;
+    height: 40px;
+    margin-top: 50px;
+    height: 60px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+h3{
+    color: white;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 20px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+h3:hover{
+    border: 2px solid white;
+}
+
+.cover{
+    background-image: url(poko.jpg);
+    background-size: cover;
+    background-color: none;
+    width: 100%;
+    height: 250px;    
+}
+
+
+.cover{
+    background-image: url(fghk.jpg);
+    background-size: cover;
+    background-color: none;
+    width: 100%;
+    height: 250px;
+}
+
+
+.cart{
+   width: 45px;
+   background-image: url(log89.jpg);
+   background-size: cover;
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 42px;
+   margin: 10px;
+   padding: 2px;
+   cursor: pointer;
+}
+
+.carting:hover{
+    border: 2px solid white;
+}
+/* 
+.demo{
+    width: 100%;
+    height: 60px;
+    padding: 2px;
+    background-color: white;
+} */
+
+.nav2{
+    width: 150%;
+    height: 45px;
+    display: inline;
+    display: flex;
+    align-items: center;
+    background-color: rgb(5, 5, 12);   
+}
+
+.right{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    right: 25px;
+    margin-top: 105px;
+    color: rgb(8, 8, 8);
+    background-image: url(dj.png);
+    background-size: cover;
+    text-shadow: 2px #fff;
+    cursor: pointer;
+}
+
+.right:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.left{ 
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    left: 25px;
+    margin-top: 105px;
+    color: rgb(8, 8, 8);
+    background-image: url(salavam.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.left:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.bar{
+    width: 18px;
+    height: 18px;
+    background-image: url(popolo.png);
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.colour{
+    color: white;
+    display: inline;
+}
+
+.goal{
+    position: absolute;
+    left: 32px;
+    position: absolute;
+    top: 75px;
+    cursor: pointer;
+}
+
+.city:hover{
+    border: 2px solid white;
+}
+
+
+.tv{
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 8px;
+    text-align: center;
+    width: fit-content;
+    display: inline;
+    cursor: pointer;
+}
+
+.tv:hover{
+    border: 2px solid white;
+}
+
+.sell{
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 8px;
+    display: inline;
+    cursor: pointer;
+}
+
+.sell:hover{
+    border: 2px solid white;
+}
+
+.bseller{
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 8px;
+    display: inline;
+    cursor: pointer;
+}
+
+.bseller:hover{
+    border: 2px solid white;
+}
+
+.tdeals{
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 8px;
+    display: inline;
+    cursor: pointer;
+}
+
+.tdeals:hover{
+    border: 2px solid white;
+}
+
+.mobile{
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.mobile:hover{
+    border: 2px solid white;
+}
+
+.new{
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 6px;
+    display: inline;
+    cursor: pointer;
+}
+
+.new:hover{
+    border: 2px solid white;
+}
+
+.service{
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 6px;
+    display: inline;
+    cursor: pointer;
+}
+
+.service:hover{
+    border: 2px solid white;
+}
+
+.prime{
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.prime:hover{
+    border: 2px solid white;
+}
+
+.elec{
+    color: white;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 6px;
+    display: inline;
+    cursor: pointer;
+}
+
+.elec:hover{
+    border: 2px solid white;
+}
+
+.launch{
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 105px;
+    padding: 6px;
+    display: inline;
+    cursor: pointer;
+    position: absolute;
+    left: 62%;
+}
+.launch:hover{
+    border: 2px solid white;
+}
+
+
+.bands{
+    width: 320px;
+    height: 400px;
+    background-image: url(bands.jpg);
+    background-size: cover;
+    margin-left: 20px;
+    border-top: 75px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+}
+
+h4{
+    position: absolute;
+    top: 375px;
+    left: 25px;
+}
+
+.h7{
+    position: absolute;
+    top: 720px;
+    left: 28px;
+    
+}
+
+.lnsk3{
+    position: absolute;
+    top: 720px;
+}
+
+.images{
+    display: flex;
+}
+
+.swatch{
+    width: 320px;
+    height: 400px;
+    background-image: url(swatch.jpg);
+    background-size: cover;
+    margin-left: 18px;
+    border-left: 20px  solid white;
+    border-top: 75px solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+}
+
+.images2{
+    position: absolute;
+    top: 375px;
+}
+
+.lnk2{
+    position: absolute;
+    top: 350px;
+}
+.shopnow{
+    position: absolute;
+    top: 730px;
+}
+
+.digits{
+    width: 320px;
+    height: 400px;
+    background-image: url(gpgpj.png);
+    background-size: cover;
+    margin-left: 18px;
+    border-top: 75px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+    
+}
+
+.styles{
+    position: absolute;
+    top: 375px;
+}
+
+.carpets{
+    width: 320px;
+    height: 400px;
+    background-image: url(tata.png);
+    background-size: cover;
+    margin-left: 18px;
+    border-top: 75px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+}
+
+.bold{
+    position: absolute;
+    top: 375px;
+}
+.plore{
+    position: absolute;
+    top: 720px;   
+}
+
+.BGMI{
+    display: flex;
+}
+
+.BGMI{
+    width: 320px;
+    height: 400px;
+    background-image: url(pharmacy.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 75px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+}
+
+.absolute{
+    position: absolute;
+    top: 795px;
+}
+
+.mmi2{
+    position: absolute;
+    top: 1128px;
+}
+
+.machines{
+    width: 320px;
+    height: 400px;
+    background-image: url(machinnes.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 75px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+}
+
+.properties{
+    display: flex;
+}
+
+.chines{
+    position: absolute;
+    top: 795px;
+}
+
+.jpjk{
+    position: absolute;
+    top: 1128px;
+}
+
+.motors{
+    width: 320px;
+    height: 400px;
+    background-image: url(motors.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 75px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+}
+
+.vehicles{
+    position: absolute;
+    top: 795px;
+}
+
+.cycles{
+    position: absolute;
+    top: 1128px;
+}
+
+.khun{
+    width: 320px;
+    height: 400px;
+    background-image: url(bloood.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 75px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+}
+
+.laal{
+    position: absolute;
+    top: 795px;
+}
+
+.gadakhun{
+    position: absolute;
+    top: 1128px;
+}
+.fashion{
+    display:flex;
+}
+.dress1{
+    width: 230px;
+    height: 400px;
+    background-image: url(drss.jpg);
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 18px;
+    border-top: 75px solid white;
+    border-left: 20px solid white;
+    border-right: 0px solid white;
+    border-bottom: 20px solid white;
+
+}
+.dress2{
+        width: 230px;
+        height: 400px;
+        background-image: url(lick.png);
+        background-size: cover;
+        margin-top: 18px;
+        margin-left: 0px;
+        border-top: 75px solid white;
+        border-left: 20px solid white;
+        border-right: 0px solid white;
+        border-bottom: 20px solid white;
+}
+.dress3{
+    width: 230px;
+    height: 400px;
+    background-image: url(hrss.jpg);
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 0px;
+    border-top: 75px solid white;
+    border-left: 20px solid white;
+    border-right: 0px solid white;
+    border-bottom: 20px solid white;
+}
+.dress4{
+    width: 100px;
+    height: 400px;
+    background-image: url(yrllo.jpg);
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 0px;
+    border-top: 75px solid white;
+    border-left: 20px solid white;
+    border-right: 0px solid white;
+    border-bottom: 20px solid white;
+}
+.dress5{
+    width: 230px;
+    height: 400px;
+    background-image: url(vilot.jpg);
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 0px;
+    border-top: 75px solid white;
+    border-left: 20px solid white;
+    border-right: 0px solid white;
+    border-bottom: 20px solid white;
+}
+.dress6{
+    width: 140px;
+    height: 400px;
+    background-image: url(wow.jpg);
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 0px;
+    border-top: 75px solid white;
+    border-left: 20px solid white;
+    border-right: 0px solid white;
+    border-bottom: 20px solid white;
+}
+.dress7{
+    width: 160px;
+    height: 400px;
+    background-image: url(saadi.jpg);
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 0px;
+    border-top: 75px solid white;
+    border-left: 20px solid white;
+    border-right: 0px solid white;
+    border-bottom: 20px solid white;
+}
+.dress8{
+    width: 200px;
+    height: 400px;
+    background-image: url(dddrsesd.jpg);
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 0px;
+    border-top: 75px solid white;
+    border-left: 20px solid white;
+    border-right: 0px solid white;
+    border-bottom: 20px solid white;
+}
+.slash{
+    position: absolute;
+    top: 1990px;
+}
+.creation{
+    display: flex;
+}
+.khotra{
+    width: 290px;
+    height: 280px;
+    background-image: url(ksr.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 15px;
+    border-top: 75px solid white;
+    border-left: 10px  solid white;
+    border-right: 10px  solid white;
+    border-bottom: 5px  solid white;
+}
+.tashtiri{
+    width: 290px;
+    height: 280px;
+    background-image: url(lgkn.png);
+    background-size: cover;
+    margin-left: 0px;
+    margin-top: 15px;
+    border-top: 75px solid white;
+    border-left: 8px  solid white;
+    border-right: 10px  solid white;
+    border-bottom: 5px  solid white;
+}
+.cloth{
+    width: 290px;
+    height: 280px;
+    background-image: url(gpn.png);
+    background-size: cover;
+    margin-left: 0px;
+    margin-top: 15px;
+    border-top: 75px solid white;
+    border-left: 8px  solid white;
+    border-right: 10px  solid white;
+    border-bottom: 5px  solid white;    
+}
+.cofee{
+    width: 290px;
+    height: 280px;
+    background-image: url(shgk.png);
+    background-size: cover;
+    margin-left: 0px;
+    margin-top: 15px;
+    border-top: 75px solid white;
+    border-left: 8px  solid white;
+    border-right: 10px  solid white;
+    border-bottom: 5px  solid white;    
+}
+.spon{
+    width: 200px;
+    height: 280px;
+    background-image: url(fghgj.png);
+    background-size: cover;
+    margin-left: 0px;
+    margin-top: 15px;
+    border-top: 75px solid white;
+    border-left: 8px  solid white;
+    border-right: 10px  solid white;
+    border-bottom: 5px  solid white; 
+}
+.close{
+    position: absolute;
+    top: 2380px;
+}
+.repeatation{
+    display: flex;
+}
+.fruits{
+    width: 360px;
+    height: 400px;
+    background-image: url(fruits.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 20px;
+    border-top: 75px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+}
+.baags{
+    width: 360px;
+    height: 400px;
+    background-image: url(boysg.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 20px;
+    border-top: 75px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+}
+.girls{
+    width: 265px;
+    height: 400px;
+    background-image: url(girls.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 20px;
+    border-top: 75px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+}
+.office{
+    width: 360px;
+    height: 400px;
+    background-image: url(electronics.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 20px;
+    border-top: 75px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 45px  solid white;
+}
+.veg{
+    position: absolute;
+    top: 2680px;
+}
+.momo{
+    position: absolute;
+    top: 3028px;
+}
+.pocket{
+    position: absolute;
+    top: 2680px;
+}
+.mega{
+    position: absolute;
+    top: 3028px;
+}
+.wommen{
+    position: absolute;
+    top: 2680px;
+}
+.device{
+    position: absolute;
+    top: 2680px;
+}
+.morre{
+    position: absolute;
+    top: 3028px;
+}
+.objection{
+    display: flex;
+}
+.pova{
+    width: 260px;
+    height: 400px;
+    background-image: url(phonnes.png);
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 18px;
+    border-top: 75px solid white;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    border-bottom: 30px solid white;   
+}
+.ghphone{
+    width: 265px;
+    height: 401px;
+    background-image: url(ghphone.png);
+    background-size: cover;
+    margin-top: 18px;
+    border-top: 75px solid white;
+    border-left: 0px solid white;
+    border-right: 20px solid white;
+    border-bottom: 30px solid white;
+}
+.wires{
+    width: 260px;
+    height: 400px;
+    background-image: url(wires.png);
+    background-size: cover;
+    margin-top: 18px;
+    border-top: 75px solid white;
+    border-left: 0px solid white;
+    border-right: 20px solid white;
+    border-bottom: 30px solid white;
+}
+.bards{
+    width: 265px;
+    height: 400px;
+    background-image: url(airbards.png);
+    background-size: cover;
+    margin-top: 18px;
+    border-top: 75px solid white;
+    border-left: 0px solid white;
+    border-right: 20px solid white;
+    border-bottom: 30px solid white;
+}
+.boots{
+    width: 280px;
+    height: 400px;
+    background-image: url(boots.png);
+    background-size: cover;
+    margin-top: 18px;
+    border-top: 75px solid white;
+    border-left: 0px solid white;
+    border-right: 20px solid white;
+    border-bottom: 30px solid white;
+}
+.today{
+    position: absolute;
+    top: 1208px;
+}
+.incridiants{
+    width: 98%;
+    height: 320px;
+    margin-left: 18px;
+    margin-top: 18px;
+    background-image: url(itemss.png);
+    background-size: cover;
+    border-top: 75px solid white;
+    border-left: 20px solid white;
+}
+.foolss{
+    position: absolute;
+    top: 1640px;
+}
+.cinemaaas{
+    width: 98%;
+    height: 600px;
+    margin-left: 18px;
+    margin-top: 18px;
+    background-image: url(moviess.png);
+    background-size: cover;
+    border-top: 35px solid white;
+    border-left: 20px solid white;
+}
+.multiplication{
+    display: flex;
+}
+.jims{
+    width: 320px;
+    height: 425px;
+    background-image: url(jim.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 35px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 55px  solid white;
+}
+.tshirts{
+    width: 320px;
+    height: 425px;
+    background-image: url(shirts.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 35px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 55px  solid white;
+}
+.mini{
+    width: 320px;
+    height: 425px;
+    background-image: url(tv.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 35px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 55px  solid white;
+}
+.cam{
+    width: 320px;
+    height: 425px;
+    background-image: url(over.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 35px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 55px  solid white;
+}
+.ran{
+    position: absolute;
+    top: 4100px;
+}
+.jivan{
+    position: absolute;
+    top: 4100px;
+}
+.mahan{
+    position: absolute;
+    top: 4100px;
+}
+.jivi{
+    position: absolute;
+    top: 4100px;
+}
+.asdf{
+    width: 98%;
+    height: 330px;
+    background-image: url(asdf.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 35px solid white;
+    border-bottom: 35px solid white;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+}
+.pocomgr{
+    width: 98%;
+    height: 330px;
+    background-image: url(shadr.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 75px solid white;
+    border-bottom: 35px solid white;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+}
+.empiral{
+    position: absolute;
+    top: 4510px;
+}
+.disco{
+    width: 98%;
+    height: 340px;
+    background-image: url(mgrtire.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 25px solid white;
+    border-bottom: 35px solid white;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+}
+.documents{
+    display: flex;
+}
+.birthday{
+    width: 320px;
+    height: 425px;
+    background-image: url(birthday.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 35px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 55px  solid white;   
+}
+.mom{
+    width: 320px;
+    height: 425px;
+    background-image: url(mother.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 35px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 55px  solid white;
+}
+.shop{
+    width: 320px;
+    height: 425px;
+    background-image: url(shopping.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 35px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 55px  solid white;
+}
+.baby{
+    width: 320px;
+    height: 425px;
+    background-image: url(baby.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 35px solid white;
+    border-left: 20px  solid white;
+    border-right: 20px  solid white;
+    border-bottom: 55px  solid white;
+}
+.did{
+    position: absolute;
+    top: 5590px;
+}
+.moms{
+    position: absolute;
+    top: 5590px;
+}
+.pping{
+    position: absolute;
+    top: 5590px;
+}
+.by{
+    position: absolute;
+    top: 5590px;
+}
+.chairs{
+    width: 98%;
+    height: 300px;
+    background-image: url(sofa.png);
+    background-size: cover;
+    margin-left: 18px;
+    margin-top: 18px;
+    border-top: 75px solid white;
+    border-bottom: 35px solid white;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+}
+.upto{
+    position: absolute;
+    top: 5658px;
+}
+.back{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 66, 83);
+    
+}
+.boko{
+    margin-top: 18px;
+    position: absolute;
+    left: 50%;
+    color: #fff;
+}
+.downward{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(14, 14, 26);
+}
+
+.coclu{
+    width: 100%;
+    height: 200px;
+    background-image: url(rayaaan.png);
+    background-size: cover;
+}
+.now{
+    margin-top: 40px;
+    position: absolute;
+    left: 15%;
+    color: white;
+}
+.connect{
+    margin-top: 40px;
+    position: absolute;
+    left: 35%;
+    color: white;
+}
+.make{
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    color: white;
+}
+.letus{
+    margin-top: 40px;
+    margin-right: 60px;
+    position: absolute;
+    left: 80%;
+    color: white;
+}
